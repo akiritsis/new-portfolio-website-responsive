@@ -199,6 +199,7 @@ header nav ul li {
   font-weight: 900;
   padding-top: 15px;
   padding-left: 10px;
+  margin-top: 55%;
 
 }
 
@@ -207,7 +208,7 @@ header nav ul li {
   width: 100%;
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
-  padding-top: 25px;
+  padding-top: 15px;
   padding-left: 10px;
 
 
@@ -412,8 +413,13 @@ header .header-intro {
   width: 90%;
 }
 
+.header-intro h1 {
+  margin-top: 35%;
+}
+
 .header-intro h2 {
   font-size: 1.9em;
+  margin-bottom: 10%;
 }
 
 .header-intro h1, h2 {
@@ -425,6 +431,7 @@ header .header-intro {
 .portfolio .content-wrapper {
   width: 90%;
 }
+
 .portfolio h2 {
   font-size: 2em;
   margin-top: 8%;
