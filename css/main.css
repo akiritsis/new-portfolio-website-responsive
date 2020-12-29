@@ -102,7 +102,7 @@ ul {
 }
 
 a {
-  text-transform: uppercase;
+  
   text-decoration: none;
   color: #335584;
   font-weight: 600;
@@ -236,6 +236,7 @@ footer .footer-content {
 
 footer .footer-content h2 {
 font-size: 1.5em;
+margin-top:10%;
 }
 
 
@@ -249,6 +250,7 @@ footer .email-header {
 }
 footer .email-header img {
 width: 8%;
+padding-right: 1%;
 }
 
 footer .social h3 {
@@ -374,6 +376,158 @@ width: 100%;
 
 
 
+
+@media only screen and (min-width: 768px) {
+/*Tablet styles here*/
+
+
+
+/* HEADER */
+
+header {
+  justify-content: space-around;
+ 
+}
+
+header .content-wrapper {
+  width: 100%;
+  justify-content: space-between;
+}
+
+header nav {
+  width: 40%;
+  padding-left: 450px;
+  padding-right:20px;
+  margin-bottom: 80px;
+}
+
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+header .header-intro {
+  width: 90%;
+}
+
+.header-intro h2 {
+  font-size: 1.9em;
+}
+
+.header-intro h1, h2 {
+  margin-left: 10px;
+}
+
+/*PORTFOLIO*/
+
+.portfolio .content-wrapper {
+  width: 90%;
+}
+.portfolio h2 {
+  font-size: 2em;
+}
+
+.portfolio h3 {
+  font-size: 1.7em;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.portfolio h4 {
+  font-size: 1.3em;
+  margin: 10px;
+}
+
+.portfolio p {
+  font-size: 1.1em;
+}
+
+.portfolio img {
+  max-width: 65%;
+}
+
+.portfolio article {
+  margin: 70px;
+}
+
+
+/*ABOUT*/
+
+.about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 8%;
+  
+}
+
+.about h2 {
+  font-size: 2em;
+}
+
+.about .bio {
+  width: 40%;
+}
+
+.about .bio-picture {
+  width: 60%;
+}
+
+.about figure {
+  max-width: 90%;
+padding-left: 10%;
+
+}
+.about p {
+  font-size: 1.1em;
+}
+
+/* FOOTER*/
+
+footer {
+  max-height: 800px;
+}
+
+footer .content-wrapper {
+  width: 65%;
+}
+
+footer .footer-content {
+  width: 100%;
+}
+
+footer .footer-content h2 {
+  font-size: 1.8em;
+  margin-bottom: 0;
+  margin-top: 15%;
+}
+
+footer .footer-content h3 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+footer .social {
+  width: 65%;
+}
+
+footer .social h3 {
+  font-size: 1.25em;
+}
+
+footer .social ul {
+  width: 40%;
+  margin-bottom: 15%;
+}
+footer .email-header img {
+ padding-right: 1%;
+
+}
+@media only screen and (min-width: 1200px) {
+/*Desktop styles here*/
+}
 
 
 
