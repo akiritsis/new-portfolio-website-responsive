@@ -225,7 +225,7 @@ footer {
 }
 
 footer .content-wrapper {
-width: 80%;
+width: 50%;
 }
 
 footer .footer-content {
@@ -236,18 +236,21 @@ footer .footer-content {
 }
 
 footer .footer-content h2 {
-font-size: 1.5em;
-margin-top:10%;
+font-size: .8em;
+margin-top:20%;
+margin-bottom: 0;
 }
 
 
 footer .footer-content h3{
-font-size: 1.125em;
+font-size: .6em;
+margin: 0;
 
 }
 
 footer .email-header {
-  font-size: 1em;
+  padding-top: 2px;
+  font-size: .5em;
 }
 footer .email-header img {
 width: 8%;
@@ -255,7 +258,12 @@ padding-right: 1%;
 }
 
 footer .social h3 {
-font-size: 1em;
+font-size: .5em;
+margin: 5px;
+}
+
+footer .social {
+  padding-top: 25px;
 }
 
 
@@ -266,13 +274,14 @@ justify-content: space-around;
 align-items: center;
 flex-flow: row wrap;
 padding-bottom: 25px;
+
 }
 
 footer .social ul {
   
   display: flex;
   justify-content: space-around;
-  width: 80%; 
+  width: 60%; 
 
 
 }
@@ -353,6 +362,10 @@ width:70%;
 
 }
 
+.about img {
+  width: 60%;
+}
+
 .about .content-wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -372,7 +385,8 @@ width: 100%;
 }
 
 .about p {
-  
+  font-size: .75em;
+  width: 80%;
 }
 
 
@@ -522,6 +536,9 @@ footer .social {
   width: 65%;
 }
 
+footer .email-header {
+  font-size: 1.25em;
+}
 footer .social h3 {
   font-size: 1.25em;
 }
@@ -534,12 +551,107 @@ footer .email-header img {
  padding-right: 1%;
 
 }
+}
+
 @media only screen and (min-width: 1200px) {
 /*Desktop styles here*/
+
+/* HEADER */
+
+header .content-wrapper {
+  width: 100%;
+  justify-content: space-between;
+}
+
+header nav {
+  width: 30%;
+  padding-left: 800px;
+  margin-top: 40px;
+}
+
+header .header-intro {
+  width: 90%;
+}
+
+header .header-intro h1 {
+  font-size: 4em;
+  margin-top: 25%;
+  margin-left:20px;
+}
+
+header .header-intro h2 {
+  font-size: 2.5em;
+  margin-left: 20px;
+}
+
+/*PORTFOLIO*/
+
+.portfolio .content-wrapper {
+  width: 100%;
+}
+
+.portfolio .portfolio-project {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.portfolio article {
+  margin: 0;
+  flex-basis: 33%;
+}
+
+.portfolio h2 {
+  font-size: 2.75em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.portfolio img {
+  flex-basis: auto;
 }
 
 
+/* ABOUT */
 
+.about h2 {
+  font-size: 2.75em;
+}
+
+.about .bio {
+  width: 50%;
+}
+
+.about .bio-picture {
+  width: 50%;
+}
+.about p {
+  font-size: 1.75em;
+}
+
+.about figure {
+  padding-top: 50px;
+}
+
+/*FOOTER*/
+
+footer .content-wrapper {
+  width: 50%;
+}
+
+footer .footer-content h2 {
+  font-size: 2em;
+}
+
+footer .footer-content h3 {
+  font-size: 1.75em;
+}
+
+footer .email-header {
+  font-size: 1.25em;
+}
+}
 
 /* ==========================================================================
    Helper classes
